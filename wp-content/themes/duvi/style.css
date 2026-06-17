@@ -1,0 +1,369 @@
+/* 
+ Theme Name:     Duvi
+ Author:         markhendriksen.com
+ Author URI:     markhendriksen.com
+ Template:       Divi
+ Version:        1.0
+ */ 
+
+
+/* ----------- PUT YOUR CUSTOM CSS BELOW THIS LINE -- DO NOT EDIT ABOVE THIS LINE --------------------------- */ 
+
+/* ####################################### */
+/* ######### CHANGE COLORS HERE ########## */
+/* ####################################### */
+
+/* ######### ACTIVE MENU ITEM ########## */
+
+.et-fixed-header #top-menu li.current-menu-item>a {
+color: #2ea3f2 !important;
+}
+
+/* ######### CALL US TEXT ########## */
+
+.call_us {
+color: #fff;
+padding-bottom: 5px;
+display: inline-block;
+font-size: 18px;
+}
+
+/* ######### PHONENUMBER ########## */
+
+.et-fixed-header .cta_menu a .phonenumber {
+    color: #5bdc31 !important;
+}
+
+.cta_menu a {
+    color: #5bdc31 !important;
+}
+
+/* ######### SIDEBAR ########## */
+
+.et_pb_widget {
+border: 1px solid #e5e5e5;
+border-top: 5px solid #13a89e;
+}
+
+/* ########### BREADCRUMB ########### */
+
+.breadcrumb a {
+    color: rgba(0, 0, 0, 0.8);
+    background: rgba(222, 229, 231, 0.72);
+}
+
+.breadcrumb a:before {
+    border-color: transparent transparent transparent #ffffff;
+}
+
+.breadcrumb a:after {
+    border-color: transparent transparent transparent rgba(222, 229, 231, 0.72);
+}
+
+.breadcrumb .breadcrumb_last {
+    background: #13a89e;
+    color: #fff;
+}
+
+.breadcrumb .breadcrumb_last:before {
+    border-color: transparent transparent transparent #fafafa;
+}
+
+.breadcrumb .breadcrumb_last:after {
+    border-color: transparent transparent transparent #13a89e;
+}
+
+/* ########### BLOG BUTTON ########### */
+
+.more-link {
+	background-color: #13a89e;
+    color: #ffffff;
+}
+
+/* ############ TRIANGLE REVIEW PAGE ############# */
+
+.Little_triangle:after {
+    border-top: solid 25px #122835;
+}
+
+
+
+/* ######### END COLORS ########## */
+
+
+
+.h2_custom h2 {
+font-size: 50px;
+}
+
+@media only screen and (max-width : 479px) {
+.h2_custom h2 {
+font-size: 30px;
+}}
+
+#main-header .container {
+    width: 95%;
+}
+
+.et_contact_bottom_container {
+display: inline-block;
+    width: 100%;
+}
+
+.et_pb_contact_submit {
+    margin: 10px 0 0 10px;
+}
+
+.et_pb_blurb_position_left .et-pb-icon-circle, .et_pb_blurb_position_right .et-pb-icon-circle {
+    padding: 4px;
+    font-size: 20px;
+}
+
+.et_pb_blurb_container {
+vertical-align: sub !important;
+}
+
+.cta_menu {
+top: 7px;
+}
+
+.cta_menu a {
+    line-height: 1.4em;
+    padding-bottom: 0px !important;
+}
+
+.call_us {
+padding-bottom: 5px;
+display: inline-block;
+font-size: 18px;
+}
+
+.phonenumber {
+font-size: 26px;
+}
+
+@media only screen and (max-width : 479px) {
+.button_left .et_pb_button_module_wrapper {
+    text-align: left !important;
+}}
+
+@media all and (max-width: 1350px) and (min-width: 981px) {
+.Block_1_2 {
+padding-left: 50px !important;
+padding-right: 50px !important;
+}}
+
+.contact_section .et_pb_row {
+    width: 100%!important;
+    max-width: 100%!important;
+}
+
+
+/* ############################ */
+/* ######### SIDEBAR ########## */
+/* ############################ */
+
+.et_pb_widget {
+padding: 30px;
+border-radius: 5px;
+}
+
+h4.widgettitle {
+font-size: 20px;
+font-weight: bold;
+}
+
+.et_pb_widget ul li {
+margin-bottom: 0em;
+}
+
+.et_pb_widget ul {
+padding-left: 40px !important;
+list-style-type: disc !important;
+}
+
+.et_pb_widget li a:hover {
+color: #000 !important;
+}
+
+#left-area ul.et_pb_social_media_follow {
+padding-bottom: 0px;
+}
+
+@media (min-width: 981px) {
+#left-area {
+    padding-bottom: 0px;
+}}
+
+
+/* ########### BREADCRUMB ########### */
+
+@media (max-width: 479px) {
+.breadcrumb {
+font-size: 10px;
+}}
+
+.breadcrumb a {
+    display: inline-block;
+    padding: 0 10px 0 20px;
+    margin: 0 10px 10px -2px;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    font-weight: 400;
+font-size: 14px;
+}
+
+.breadcrumb a:before {
+    position: absolute;
+    top: 0;
+    content: '';
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 0 12px 12px;
+    z-index: 1;
+}
+
+.breadcrumb a:after {
+    position: absolute;
+    top: 0;
+    content: '';
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 0 12px 12px;
+    z-index: 2;
+}
+
+.breadcrumb .breadcrumb_last {
+    display: inline-block;
+    padding: 0 10px 0 20px;
+    margin: 0 5px 10px -2px;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    font-weight: 400;
+font-size: 14px;
+}
+
+.breadcrumb .breadcrumb_last:before {
+    position: absolute;
+    top: 0;
+    content: '';
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 0 12px 12px;
+    z-index: 1;
+}
+
+.breadcrumb .breadcrumb_last:after {
+    position: absolute;
+    top: 0;
+    content: '';
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 0 12px 12px;
+    z-index: 2;
+}
+
+.more-link {
+    display: inline-block !important;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ########### FOOTER ########### */
+
+
+.footer .et_pb_blurb_content {
+    margin: 0 0;
+}
+
+#left-area .footer .footer_blurbs {
+padding-top: 25px;
+padding-left: 0px;
+}
+
+/* ########### 404 PAGE ########### */
+
+@media only screen and (max-width : 479px) {
+.error404 .et_pb_fullwidth_header .header-content {
+margin-top: 125px !important;
+}
+
+.error404 a.et_pb_more_button {
+    font-size: 16px;
+}}
+
+/* ############ TRIANGLE REVIEWS ############# */
+
+.Little_triangle {
+position:relative;
+}
+
+.Little_triangle:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -25px;
+    width: 0;
+    height: 0;
+    border-left: solid 25px transparent;
+    border-right: solid 25px transparent;
+}
+
+/* ################################ */
+/* ######### REVIEW PAGE ########## */
+/* ################################ */
+
+.Testimonial_text p {
+margin: 0 auto;
+    display: block;
+    width: 350px;
+}
+
+.Testimonial_text_p {
+padding-top: 25px;
+    display: block;
+}
+
+@media all and (max-width: 479px) {
+.Testimonial_text img {
+width: 20%;
+}
+
+.Testimonial_text_p {
+padding-top: 5px;
+}}
+
+@media all and (max-width: 1350px) and (min-width: 981px) {
+.Reviews_page .et_pb_text {
+padding-left: 20px !important;
+padding-right: 20px !important;
+font-size: 14px;
+    line-height: 1.7em;
+}
+
+.Reviews_page .et_pb_text img {
+width: 20%;
+}
+
+.Testimonial_text_p {
+padding-top: 5px;
+}}
+
+.optin_page .et_pb_blurb_container {
+vertical-align: middle !important;
+}
